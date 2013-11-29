@@ -1,0 +1,10 @@
+<script id="indexTmpl" type="text/x-jquery-tmpl">
+    <div class="item drop-shadow round">
+        <div class="item-image">
+            <a href="#subalbum/${cid}"><img src="${attributes.image}" alt="${attributes.title}" /></a>
+        </div>
+        <div class="item-artist">${attributes.artist}</div>
+        <div class="item-title">${attributes.title}</div>
+        <div class="item-years">${attributes.years}</div>
+    </div>
+</script>

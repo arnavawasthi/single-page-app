@@ -1,0 +1,13 @@
+<script id="itemTmpl" type="text/x-jquery-tmpl">
+    <div class="item-detail">
+        <div class="item-image drop-shadow round"><img src="${attributes.large_image}" alt="${attributes.title}" /></div>
+        <div class="item-info">
+            <div class="item-artist">${attributes.artist}</div>
+            <div class="item-title">${attributes.title}</div>
+            <div class="item-price">$${attributes.price}</div>
+            <br />
+            <div class="item-link"><a href="${attributes.url}" class="button">Buy this item</a></div>
+            <div class="back-link"><a href="#" class="button">&laquo; Back to Albums</a></div>
+        </div>
+    </div>
+</script>
